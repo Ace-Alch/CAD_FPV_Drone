@@ -1,6 +1,9 @@
 # FPV Drone CAD Design | SolidWorks 2022
 
 This project presents a complete 3D CAD design of an FPV (First Person View) quadcopter drone using SolidWorks. The design includes detailed part modeling, exploded views, and assembly drawings, making it suitable for both simulation and physical prototyping.
+<p align="center">
+  <img src="Docs/Assembly_Explode.gif" width="70%" alt="Exploded View Animation">
+</p>
 
 ---
 
