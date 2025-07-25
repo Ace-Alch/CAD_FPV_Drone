@@ -53,7 +53,7 @@ See full breakdown in [Docs/Assembly_Explode3D.pdf](Docs/Assembly_Explode3D.pdf)
 
 ## Next Steps
 
-- [ ] Export to `.STEP` and `.STL` for 3D printing  
+- [x] Export to `.STEP` and `.STL` for 3D printing  
 - [ ] Simulate aerodynamics in SimScale or Ansys  
 - [x] Integrate with flight controller — I have done this in [this project](https://github.com/Ace-Alch/dji-mavic-sim)  
-- [ ] Create assembly video with annotations
+- [x] Create assembly video with annotations
