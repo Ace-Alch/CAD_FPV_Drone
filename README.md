@@ -1,5 +1,5 @@
 <div align="center">
-<img src="portfolio-assets/cover.svg" width="100%" alt="FPV Quadcopter CAD Design project cover">
+<img src="https://raw.githubusercontent.com/Ace-Alch/Ace-Alch.github.io/main/banners/CAD_FPV_Drone.webp" width="100%" alt="CAD_FPV_Drone — project concept artwork">
 
 # FPV Quadcopter CAD Design
 
