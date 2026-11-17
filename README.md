@@ -1,59 +1,80 @@
-# FPV Drone CAD Design | SolidWorks 2022
+<div align="center">
+<img src="portfolio-assets/cover.svg" width="100%" alt="FPV Quadcopter CAD Design project cover">
 
-This project presents a complete 3D CAD design of an FPV (First Person View) quadcopter drone using SolidWorks. The design includes detailed part modeling, exploded views, and assembly drawings, making it suitable for both simulation and physical prototyping.
-<p align="center">
-  <img src="Docs/Assembly_Explode.gif" width="70%" alt="Exploded View Animation">
-</p>
+# FPV Quadcopter CAD Design
 
----
+**Document a quadcopter assembly with parts, drawings and exploded views.**
 
-## Components Overview
+SolidWorks 2022 � Assembly design � CAD
 
-| Part Name           | Quantity |
-|---------------------|----------|
-| Spider Top          | 1        |
-| Spider Base         | 1        |
-| Spider Arms         | 4        |
-| Brushless Motors    | 4        |
-| Propellers          | 4        |
-| Battery             | 1        |
-| Electrical Board    | 1        |
-| Machine Screws/Nuts | Varied   |
+[Overview](#overview) � [Design](portfolio/DESIGN.md) � [Setup](portfolio/SETUP.md) � [Validation](portfolio/VALIDATION.md) � [Evidence](portfolio/EVIDENCE.md)
+</div>
 
-See full breakdown in [Docs/Assembly_Explode3D.pdf](Docs/Assembly_Explode3D.pdf)
+## Overview
 
----
+| Item | Record |
+| :-- | :-- |
+| Project type | CAD design |
+| Field | Engineering |
+| Material in this package | Existing repository inspected |
+| Documentation review | 17 November 2026 |
 
-## CAD Deliverables
+## Scope
 
-- [Assembly_Explode3D.pdf](Docs/Assembly_Explode3D.pdf): Exploded 3D view with part list  
-- [Assembly_Draw3D.pdf](Docs/Assembly_Draw3D.pdf): Standard 3D drawing with multiple projections  
-- SolidWorks source files (`*.SLDPRT`, `*.SLDASM`)  
-- Animated exploded view: `Assembly_Explode.gif`
+Document a quadcopter assembly with parts, drawings and exploded views. The documentation separates the stated project scope, inspected artifacts and future work. A listed feature is not a new test result.
 
----
+### Main elements
 
-## Design Considerations
+- Frame parts
+- Motor and propeller parts
+- Assembly mates
+- Exploded view
 
-- Designed for **lightweight FPV racing**
-- Modular frame for easy maintenance
-- Battery bay placement optimized for balance
-- 4x brushless motors (compatible with 5" props)
+## Start here
 
----
+1. Read the [design record](portfolio/DESIGN.md) for the system elements and boundaries.
+2. Follow the [setup record](portfolio/SETUP.md) for available entry points.
+3. Use the [validation plan](portfolio/VALIDATION.md) to record reproducible results.
+4. Check the [evidence register](portfolio/EVIDENCE.md) before reusing claims.
 
-## Folder Structure
+## Technical limits
 
-| Folder   | Contents                            |
-|----------|-------------------------------------|
-| `CAD/`   | SolidWorks part and assembly files  |
-| `Docs/`  | Exploded view, drawings, and GIF    |
+The repository contains native SolidWorks parts, an assembly, PDF drawings, a GIF and a video. STEP and STL exports were not present in the inspected tree. The separate DJI simulation does not prove that a physical flight controller was integrated into this CAD assembly.
 
----
+## Project preview
 
-## Next Steps
+![Project artifact](Docs/Assembly_Explode.gif)
 
-- [x] Export to `.STEP` and `.STL` for 3D printing  
-- [ ] Simulate aerodynamics in SimScale or Ansys  
-- [x] Integrate with flight controller — I have done this in [this project](https://github.com/Ace-Alch/dji-mavic-sim)  
-- [x] Create assembly video with annotations
+This image is an existing repository artifact. It is not evidence of a new test.
+
+## Available material
+
+| Path | Type |
+| :-- | :-- |
+| [CAD/Assem1.SLDASM](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Assem1.SLDASM) | .SLDASM |
+| [CAD/Electrical Connector.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Electrical%20Connector.SLDPRT) | .SLDPRT |
+| [CAD/Spacer.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Spacer.SLDPRT) | .SLDPRT |
+| [CAD/Spider Arm.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Spider%20Arm.SLDPRT) | .SLDPRT |
+| [CAD/Spider Base.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Spider%20Base.SLDPRT) | .SLDPRT |
+| [CAD/Spider Top.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Spider%20Top.SLDPRT) | .SLDPRT |
+| [CAD/Spinner.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/Spinner.SLDPRT) | .SLDPRT |
+| [CAD/dist Board.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/dist%20Board.SLDPRT) | .SLDPRT |
+| [CAD/elecPin1.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/elecPin1.SLDPRT) | .SLDPRT |
+| [CAD/elecPin2.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/elecPin2.SLDPRT) | .SLDPRT |
+| [CAD/motor.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/motor.SLDPRT) | .SLDPRT |
+| [CAD/piller.SLDPRT](https://github.com/Ace-Alch/CAD_FPV_Drone/blob/main/CAD/piller.SLDPRT) | .SLDPRT |
+
+See the [complete source inventory](portfolio/SOURCE-INVENTORY.md) for all inspected file paths.
+
+## Next work
+
+- [ ] STEP and STL export evidence
+- [ ] Materials and fasteners
+- [ ] Mass properties
+- [ ] Physical assembly checks
+
+## Credits and reuse
+
+Project record: Mehdi Moallemkolaei. Specific third-party and course contributions must retain their original notices.
+
+Existing license terms remain in effect. This package does not grant a new license over source code, course material, models or datasets. See [reuse and contribution notes](portfolio/CONTRIBUTIONS.md).

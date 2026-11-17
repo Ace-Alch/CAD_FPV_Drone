@@ -1,0 +1,16 @@
+name: Documentation correction
+description: Report a specific error or missing evidence
+title: "docs: "
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: File and section
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Correction and supporting evidence
+    validations:
+      required: true
